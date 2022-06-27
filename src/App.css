@@ -1,0 +1,21 @@
+body {
+  background-color: grey;
+  color:black;
+}
+
+p {
+  font-family: Times;
+  font-size: 15px;
+  
+}
+
+div {
+  background-color: grey;
+  width: 400px;
+  color: black;
+}
+
+button {
+  color: white;
+  background: blue;
+}
