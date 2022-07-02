@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import "./Header.jsx";
+import {hireme} from "./hireme.jsx";
 import { Header } from './Header.jsx';
 function App() {
   return (
@@ -11,9 +12,9 @@ function App() {
       This is where i put all the things about me. 
     </p>
     <div>
-      I am currently working at Snap. Looking to become a software engineer. 
+      I am currently working at Snap. Building to become a software engineer. This is where you can find all the tinkering and fun items I am currently working on. 
     </div>
-    <button onclick="hireme()">
+    <button onClick={hireme}>
       pushit
     </button>
     

@@ -11,11 +11,13 @@ p {
 
 div {
   background-color: grey;
-  width: 400px;
+  display: grid;
   color: black;
 }
 
 button {
   color: white;
   background: blue;
+  flex: align; 
+  width: 50px;
 }
