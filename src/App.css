@@ -1,23 +1,34 @@
 body {
   background-color: grey;
   color:black;
+  display:grid;
+  grid-template-areas:"head picture button"
+                      "button button button"
+                      "button projects foot";
+  grid-template-columns: 1fr 100px 100px 
 }
 
 p {
-  font-family: Times;
+  font-family: monospace;
   font-size: 15px;
   
 }
 
-div {
-  background-color: grey;
-  display: grid;
+.header {
+  background-color: darkcyan;
+  grid-column: 2/3;
   color: black;
+  grid-area: head;
 }
 
 button {
   color: white;
   background: blue;
   flex: align; 
-  width: 50px;
+  width: 75px;
+}
+
+.footer {
+  background-color:red;
+  grid-area:foot;
 }
