@@ -1,5 +1,5 @@
-export hireme = () => {
+const hireme = () => {
   alert("hire zayd")
 }; 
 
-export default hireme; 
+export {hireme}; 
